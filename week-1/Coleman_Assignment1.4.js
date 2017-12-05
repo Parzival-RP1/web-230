@@ -20,4 +20,8 @@ console.log(age);
 console.log(street);
 console.log(city);
 console.log(state);
+<<<<<<< HEAD
 console.log(zipCode);
+=======
+console.log(zipCode);
+>>>>>>> 8075f45c6c35719c776ce12cc41c80c5e7d4bec5
