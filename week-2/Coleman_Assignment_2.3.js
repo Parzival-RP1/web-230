@@ -26,10 +26,8 @@ function myName() {
 }
 
 // output 
+console.log(header.display("Daniel", "Coleman", "Exercise 2.3"));
 console.log('\nHello ' + myName + '!');
-
-
-
 
 
 // end program
