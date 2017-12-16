@@ -21,48 +21,67 @@ var header = require('../header.js');
 
 // function(s) go here...
 
+
+//Full Name Block
 var firstName = "Daniel ";
 var lastName = "Coleman";
-var fullName = firstName + lastName;
+var Name = fullName();
+
 
 function fullName() {
-
+    return firstName + lastName;
 }
 
-var dateSelector = new Date();
-var date = dateSelector.getDay(10);
-var month = dateSelector.getMonth(0);
-var year = dateSelector.getFullYear(2017);
-var MonthDateYear = month + "/" + date + "/" + year;
-var dateWriter = MonthDateYear;
+fullName()
 
+//Create a function called dateWriter that accepts three parameters (year, month, and day) as arguments and returns a fully qualified JavaScript date object
 function dateWriter() {
-
+    return dateSelect;
 }
 
-var tempFar = 97.829;
-var temperature = tempFar.toFixed(1);
+var today = new Date();
+var dateSelect = today.toDateString();
 
+var day = today.setDate(16);
+var month = today.setMonth(11);
+var year = today.setFullYear(2017);
+
+dateWriter()
+
+//Create a function called formatNumber that accepts two parameters (number and fixed position) as arguments and returns the formatted value
 function formatNumber() {
-
+    return temp;
 }
 
+var far = 45.859;
+var temp = far.toFixed(1);
+var tempFar = formatNumber();
+
+formatNumber()
+
+
+//Create a function called convertToInt that accepts one parameter (string) as an argument and returns the value as a parsed integer
 function convertToInt() {
-
+    return parseInt(31)
 }
 
+var age = convertToInt();
+
+convertToInt()
+
+//Create a function called convertToFloat that accepts one parameter (string) as an argument and returns the value as a parsed float
 function convertToFloat() {
-
+    return parseFloat(1000000000.00)
 }
+
+var savings = convertToFloat();
+
+convertToFloat()
+
 
 // output 
 console.log(header.display("Daniel", "Coleman", "Assignment 2.4"));
-console.log('\nHello my name is ' + fullName + '!');
-console.log("\nToday's date is " + dateWriter + " and the current temperature is " + tempFar);
-
-
-
-
-
-
+console.log('\nHello my name is ' + fullName() + '!');
+console.log("\nI am " + today.toLocaleDateString() + " and the current temperature is " + formatNumber() + '.');
+console.log("\nI am " + convertToInt() + " years old and my savings account goal is " + convertToFloat() + '.');
 // end program
