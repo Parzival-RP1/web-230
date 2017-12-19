@@ -2,6 +2,14 @@ var header = require('../header.js');
 
 // start program
 
+/* ============================================ 
+; Title: Assignment 3.3
+; Author: Daniel Coleman
+; Date: 19 December 2017
+; Modified By: Daniel Coleman
+; Description: Creating and calling functions with multiple paramaters. Multi Branch / Switch Block
+;=========================================== */
+
 /*
     Expected output:
 
@@ -20,11 +28,11 @@ var header = require('../header.js');
 
 if (eventKeyCode == 13) {
     console.log("The enter key was pressed"); 
-} else if (eventKeyCode == 16) {
+} else (eventKeyCode == 16) {
     console.log("The shift key was pressed"); 
-} else if (eventKeyCode == 32) {
+} else (eventKeyCode == 32) {
     console.log("The spacebar key was pressed")
-} else if (eventKeyCode == 8) {
+} else (eventKeyCode == 8) {
     console.log("The backspace / delete key was pressed");
 } else {
     console.log("Unrecognized key press"); 
