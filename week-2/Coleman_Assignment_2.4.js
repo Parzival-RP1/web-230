@@ -23,16 +23,15 @@ var header = require('../header.js');
 
 
 //Full Name Block
-var firstName = "Daniel ";
+// OLD CODE - 
+/* var firstName = "Daniel ";
 var lastName = "Coleman";
 var Name = fullName();
+*/
 
-
-function fullName() {
-    return firstName + lastName;
+function fullName(firstName, lastName) {
+    return firstName + " " + lastName + "!";
 }
-
-fullName()
 
 //Create a function called dateWriter that accepts three parameters (year, month, and day) as arguments and returns a fully qualified JavaScript date object
 function dateWriter() {
@@ -46,9 +45,7 @@ var day = today.setDate(16);
 var month = today.setMonth(11);
 var year = today.setFullYear(2017);
 
-dateWriter()
-
-/*
+/* SUGGESTED KRASSO CODE
 function dateWriter(year, month, day) {
     return new Date(year, month, day);
 }
@@ -64,17 +61,12 @@ var far = 45.859;
 var temp = far.toFixed(1);
 var tempFar = formatNumber();
 
-formatNumber()
-
-
 //Create a function called convertToInt that accepts one parameter (string) as an argument and returns the value as a parsed integer
 function convertToInt() {
     return parseInt(31)
 }
 
 var age = convertToInt();
-
-convertToInt()
 
 //Create a function called convertToFloat that accepts one parameter (string) as an argument and returns the value as a parsed float
 function convertToFloat() {
@@ -83,12 +75,9 @@ function convertToFloat() {
 
 var savings = convertToFloat();
 
-convertToFloat()
-
-
 // output 
 console.log(header.display("Daniel", "Coleman", "Assignment 2.4"));
-console.log('\nHello my name is ' + fullName() + '!');
+console.log('\nHello my name is ' + fullName("Daniel", "Coleman"));
 console.log("\nToday's date is " + today.toLocaleDateString() + " and the current temperature is " + formatNumber() + '.');
 console.log("\nI am " + convertToInt() + " years old and my savings account goal is " + convertToFloat() + '.');
 // end program
