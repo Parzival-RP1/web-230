@@ -1,5 +1,16 @@
 var header = require('../header.js');
 
+
+/* ============================================ 
+; Title: Assignment 2.4
+; Author: Daniel Coleman
+; Date: 19 December 2017
+; Modified By: Daniel Coleman
+; Description: Creating and calling functions with multiple paramaters. Returning strings, parsed integers, and formatted values
+;=========================================== */
+
+
+
 // start program
 
 /*
