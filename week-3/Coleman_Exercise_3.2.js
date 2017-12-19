@@ -1,7 +1,7 @@
 var header = require('../header.js');
 
 /* ============================================ 
-; Title: Assignment 2.4
+; Title: Assignment 3.2
 ; Author: Daniel Coleman
 ; Date: 19 December 2017
 ; Modified By: Daniel Coleman
