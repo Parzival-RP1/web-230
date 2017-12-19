@@ -1,5 +1,13 @@
 var header = require('../header.js');
 
+/* ============================================ 
+; Title: Assignment 3.4
+; Author: Daniel Coleman
+; Date: 19 December 2017
+; Modified By: Daniel Coleman
+; Description: Test Loops; variables, match, logMatch, logMismatch, randomNumber, While loop
+;=========================================== */
+
 // start program
 
 /*
