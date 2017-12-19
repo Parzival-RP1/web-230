@@ -48,6 +48,13 @@ var year = today.setFullYear(2017);
 
 dateWriter()
 
+/*
+function dateWriter(year, month, day) {
+    return new Date(year, month, day);
+}
+console.log(dateWriter(2017, 12, 18));
+*/
+
 //Create a function called formatNumber that accepts two parameters (number and fixed position) as arguments and returns the formatted value
 function formatNumber() {
     return temp;
@@ -82,6 +89,6 @@ convertToFloat()
 // output 
 console.log(header.display("Daniel", "Coleman", "Assignment 2.4"));
 console.log('\nHello my name is ' + fullName() + '!');
-console.log("\nI am " + today.toLocaleDateString() + " and the current temperature is " + formatNumber() + '.');
+console.log("\nToday's date is " + today.toLocaleDateString() + " and the current temperature is " + formatNumber() + '.');
 console.log("\nI am " + convertToInt() + " years old and my savings account goal is " + convertToFloat() + '.');
 // end program
