@@ -26,12 +26,10 @@ var header = require('../header.js');
 */
 
 // function(s) go here...
-
-
 function fullName(firstName, lastName) {
     return "Hello my name is " + firstName + " " + lastName + "!";
-}
 
+}
 //Create a function called formatNumber that accepts two parameters (number and fixed position) as arguments and returns the formatted value
 function formatNumber(temp, position) {
     return temp.toFixed(position);
