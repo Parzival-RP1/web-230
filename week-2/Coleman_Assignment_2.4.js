@@ -4,7 +4,7 @@ var header = require('../header.js');
 /* ============================================ 
 ; Title: Assignment 2.4
 ; Author: Daniel Coleman
-; Date: 19 December 2017
+; Date: 20 December 2017
 ; Modified By: Daniel Coleman
 ; Description: Creating and calling functions with multiple paramaters. Returning strings, parsed integers, and formatted values
 ;=========================================== */
@@ -19,12 +19,11 @@ var header = require('../header.js');
     Assignment 2.4
     Today's Date
     Hello my name is <concatenated full name>!
+
     Today's date is <formatted date> and the current temperature is <formatted number with 1 fixed decimal position>
     
     I am <parsed int> years old and my savings account goal is <parsed float value> dollars.
 */
-
-
 
 // function(s) go here...
 
@@ -43,13 +42,10 @@ function dateWriter(month, day, year) {
     return "Today's date is " + month + "/" + day + "/" + year + " and the current temperature is " + formatNumber(45.859, 1) + ".";
 }
 
-
-
 //Create a function called convertToInt that accepts one parameter (string) as an argument and returns the value as a parsed integer
 function convertToInt(age) {
     var convertInt = Number(age);
     return "I am " + convertInt + " years old and my savings account goal is $" + convertToFloat(10000000) + ".";
-
 }
 
 //Create a function called convertToFloat that accepts one parameter (string) as an argument and returns the value as a parsed float
