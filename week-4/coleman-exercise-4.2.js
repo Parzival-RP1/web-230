@@ -39,9 +39,8 @@ function getFruit() {
 
 
 // Output from the getFruit() function
+console.log(header.display("Daniel", "Coleman", "Exercise 4.2"));
+
 getFruit();
-
-
-
 
 // end program
