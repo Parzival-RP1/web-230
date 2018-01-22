@@ -5,6 +5,14 @@ console.log(header.display("Daniel", "Coleman", "Exercise 5.2"));
 console.log("\n");
 
 
+/* ============================================ 
+; Title: Exercise 5.2
+; Author: Richard Krasso / Daniel Coleman
+; Date: 20 January 2018
+; Modified By: Daniel Coleman
+; Description: Object Collections // For Each
+;=========================================== */
+
 /*
  Expected output:
 

@@ -6,6 +6,15 @@ console.log(header.display("Daniel", "Coleman", "Exercise 5.3"));
 var header = require('../header.js');
 console.log("\n");
 
+
+/* ============================================ 
+; Title: Exercise 5.3
+; Author: Richard Krasso / Daniel Coleman
+; Date: 20 January 2018
+; Modified By: Daniel Coleman
+; Description: ES5 Built in Functions
+;=========================================== */
+
 /*
  Expected output:
 

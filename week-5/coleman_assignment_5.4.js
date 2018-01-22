@@ -2,9 +2,17 @@ var header = require('../header.js');
 
 console.log("\n");
 console.log(header.display("Daniel", "Coleman", "Assignment 5.4"));
-
-var header = require('../header.js');
 console.log("\n");
+
+
+/* ============================================ 
+; Title: Assignment 5.4
+; Author: Richard Krasso / Daniel Coleman
+; Date: 20 January 2018
+; Modified By: Daniel Coleman
+; Description: Filtering and Reducing complex data structures
+;=========================================== */
+
 
 /*
 Expected output:
