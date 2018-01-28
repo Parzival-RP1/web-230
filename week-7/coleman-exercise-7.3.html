@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+
+<!-- 
+
+/* ============================================ 
+; Title: Exercise 7.3
+; Author: Richard Krasso
+; Date: 27 January 2018
+; Modified By: Daniel Coleman
+; Description: Client-side Javascript
+;=========================================== */
+    
+** W3 Inner HTML Example
+
+<html>
+<body>
+
+<p id="p1">Hello World!</p>
+
+<script>
+document.getElementById("p1").innerHTML = "New text!";
+</script>
+
+</body>
+</html>
+
+** HTML STARTER CODE
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 7.3</title>
+
+    <link rel="stylesheet" href="../site.css">
+</head>
+<body>
+
+
+<div id="list"></div>
+
+<script>
+    // document.write() code goes here...
+    document.write("<h1>SHOPPING LIST v.1</h1>");
+    document.write("<ol>");
+    // list items
+    document.write("</ol>");
+</script>
+
+<script>
+    // innerHTML code goes here ...
+</script>
+
+</body>
+</html>
+
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 7.3</title>
+
+    <link rel="stylesheet" href="../site.css">
+</head>
+
+<body>
+    <div id="fruitList"></div>
+    <!-- LISTS HTML/CSS CHAPTER 3 HTML+CSS PAGE.62 / Duckett -->
+
+
+    <script>
+        document.write("<h1>SHOPPING LIST V.1</h1>");
+        document.write("<ol>");
+        document.write("<li>Oranges</li>" + "<li>Apples</li>" + "<li>Pears</li>" + "<li>Limes</li>" + "<li>Lemons</li>");
+        document.write("</ol>");
+    </script>
+
+    <h1>SHOPPING LIST V.2</h1>
+    <table id="shoppingListV2"></table>
+
+    <script>
+        //TABLES HTML/CSS CHAPTER 6 HTML+CSS PAGE.130 / Duckett
+        document.getElementById("shoppingListV2").innerHTML =
+            "<table>" +
+            "<thead>" +
+            "<tr>" +
+            "<th>Id</th>" + "<th>Item</th>" +
+            "</tr>" +
+            "</thead>" +
+            "<tbody>" +
+            "<tr><td>1</td><td>Oranges</td></tr>" +
+            "<tr><td>2</td><td>Apples</td></tr>" +
+            "<tr><td>3</td><td>Pears</td></tr>" +
+            "<tr><td>4</td><td>Limes</td></tr>" +
+            "<tr><td>5</td><td>Lemons</td></tr>" +
+            "</tbody>" +
+            "</table>"
+    </script>
+</body>
+
+</html>
