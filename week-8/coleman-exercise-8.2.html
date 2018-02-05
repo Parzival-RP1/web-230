@@ -1,0 +1,78 @@
+<!-- ========================================== 
+; Title: Exercise 8.2
+; Author: Richard Krasso 
+; Date: February 3 2018
+; Modified By: Daniel Coleman
+; Description: Dynamic HTML
+;==============================================
+
+EXAMPLE CODE ==================================
+
+<div id="letters"></div>
+
+var letters = ["A", "B", "C", "D", "E"];
+
+var out = "
+
+Letters
+
+<ul>";
+
+for (var x = 0; x < letters.length; x++) {
+
+    out += "<li>" + letters[x] + " li>";
+
+}
+
+out += " ul>";
+
+document.getElementById('letters').innerHTML = out;
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 8.2</title>
+
+    <style type="text/css">
+        ul {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="fruits"></div>
+
+    <script>
+        var fruits = [{
+            'id': 1,
+            'type': 'Oranges'
+        }, {
+            'id': 2,
+            'type': 'Apples'
+        }, {
+            'id': 3,
+            'type': 'Pears'
+        }, {
+            'id': 4,
+            'type': 'Limes'
+        }, {
+            'id': 5,
+            'type': 'Lemons'
+        }];
+
+        var display = "<h1>Shopping List</h1><ul>";
+        for (var i = 0; i < fruits.length; i++) {
+            display += "<li>" + fruits[i].id + ": " + fruits[i].type + "</li>";
+        }
+        display += "</ul>";
+        document.getElementById('fruits').innerHTML = display;
+    </script>
+
+</body>
+
+</html>
